@@ -1,8 +1,20 @@
 <?php
 /*
-Mary Machado
-CS490 - 101
-Middle Part - Release Version
+This script belongs to the mid-end of an auto-grader and it is written in php
+An exam is taken online by a student. The function of the script is to grade the exam taken in Python that have been
+saved in a database.
+When a button is hit by a professor to auto-grade (front-end) the script checks for the action "autograde" and it will
+request all saved tests taken by students and also request to the database the test cases for each question, the
+constrain the professor set up as a must in the developing of a function (for loop, while loop, return or print
+statements, etc) and the name of the function the professor asked for.
+The script will write a python script and execute it saving the output in a text file to later compare
+such output with the correct output saved in the DB. If the output of the file, and the correct output saved in the
+database match, then points will not be deducted.
+Additionally, the script is set up to check if a student used "def" and the first ":" (colon) when writing the required
+functions.
+After the exams has been all graded, the points taken away for each test case, function name, the first colon (":") and
+the constraint, the script will send to the database the total points deducted and final graded to the back-end, that
+will be saved in the database.
 */
 
 $info = file_get_contents('php://input');
