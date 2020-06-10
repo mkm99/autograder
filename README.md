@@ -27,8 +27,8 @@ that then are saved in the database.
 
 # Points deducted
 ### Case when points are deducted
-The image shows the deduction of the point in each question if the answer is not correct. Points deducted are displayed 
-in details.
+The image shows the deduction of points in each question when answer is not correct. Points deducted are displayed 
+in detail.
 
 ![Points Deducted](./imgCapture1.png)
 
@@ -38,8 +38,6 @@ in details.
 The image shows when the student answered correctly, no points are deducted
 
 ![Points Not Deducted](./imgCapture2.png)
-
-
 
 # Video 
 This video demonstrates the functionality of the whole project
