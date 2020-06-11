@@ -42,4 +42,4 @@ The image shows when the student answered correctly, no points are deducted
 # Video 
 This video demonstrates the functionality of the whole project
 
-[Walk through video](https://youtu.be/y10WYicZYo8)
+[Walk through video](https://youtu.be/y10WYicZYo8?/target=_blank)
